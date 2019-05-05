@@ -8,10 +8,11 @@ module.exports = class botinfo {
           }
 
     async run(bot, message, args) {
-let number = args.join(" ");
-let a = false;
+
+let number = args[1];
+let a = true;
 if(a){
-  message.channel.bulkDelete(number)
+    message.channel.bulkDelete(number)
     .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
     .catch(console.error);
 }
