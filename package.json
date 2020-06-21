@@ -1,26 +1,17 @@
 {
-  "name": "allroundbot",
+  "name": "TestBotMongo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Firerayn/ADiscordBot.git"
-  },
-  "keywords": [
-    "Discord.js"
-  ],
-  "author": "Firerayn",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/Firerayn/ADiscordBot/issues"
-  },
-  "homepage": "https://github.com/Firerayn/ADiscordBot#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "djs-commands": "^1.2.2"
+    "discord.js": "^12.2.0",
+    "djs-commands": "^1.2.2",
+    "eslint": "^7.3.0"
   }
 }
